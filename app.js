@@ -30,7 +30,8 @@ function successCallback(position) {
 }
 
 function errorCallback() {
-    alert('posisi tidak dapat diakses');
+    //default lokasi jakarta
+    waktuSholat('-6.200000', '106.816666')
 }
 
 
